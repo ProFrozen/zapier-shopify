@@ -1,0 +1,24 @@
+{
+  "name": "extended-shopify-zapier-app",
+  "version": "1.0.0",
+  "description": "Extended Zapier App for Shopify API to include additional features for Products and Product Variants.",
+  "repository": "automatizator/extended-shopify-zapier-app",
+  "homepage": "https://automatizator.com/",
+  "author": "Damir Badzic <info@automatizator.com>",
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "engines": {
+    "node": "8.10.0",
+    "npm": ">=6.9.0"
+  },
+  "dependencies": {
+    "zapier-platform-core": "8.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.0"
+  }
+}
